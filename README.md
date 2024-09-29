@@ -34,7 +34,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Load the color image
-image = cv2.imread('Fish.jpg')
+image = cv2.imread('bright.jpg')
 
 # Convert the image to grayscale
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -126,7 +126,8 @@ plt.show()
 ```
 ## Output:
 ### Output of Bright Image:
-![image](https://github.com/user-attachments/assets/8b1fcfe2-d550-4737-a1b9-369ac0ece5b1)
+![image](https://github.com/user-attachments/assets/75ed1aaa-5e88-45d4-a59f-35b2ed35d83b)
+
 ### Output of Dark Image:
 ![image](https://github.com/user-attachments/assets/65eb5da6-b003-4ec8-a78f-b17dd5abf677)
 
